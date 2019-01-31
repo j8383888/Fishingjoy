@@ -1,0 +1,8 @@
+{
+	"search.exclude": {
+		"**/bin-debug": true,
+		"**/bin-release": true
+	},
+	"indenticator.showHover": true,
+	"editor.renderIndentGuides": true
+}

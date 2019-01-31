@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="by_BtnPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="BtnGroup" y="203.95" left="49" scaleX="1.3" scaleY="1.3" anchorOffsetY="0" height="251.51">
+		<e:Image id="aimShoot" x="0" y="3" source="fishMZ"/>
+		<e:Image id="autoShoot" x="0" y="84" source="fishZD"/>
+		<e:Image id="frozenShoot" x="0" y="165.67" source="fishBD"/>
+		<e:Image id="fastShoot" x="0" y="344.5" source="fishJS" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image source="fishText1" y="216.36" horizontalCenter="0.5" touchEnabled="false" visible="false"/>
+		<e:Image y="134.37" horizontalCenter="0.5" touchEnabled="false" source="fishText2" visible="false"/>
+		<e:Image y="53.72" horizontalCenter="0.5" touchEnabled="false" source="fishText3" visible="false"/>
+		<e:Group x="67" y="228.4" touchEnabled="false" anchorOffsetX="14" anchorOffsetY="14">
+			<e:Image touchEnabled="false" source="fishBD3" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="frozenQuantity" text="99" touchEnabled="false" size="18" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" verticalAlign="middle" textAlign="center" textColor="0xffffff" stroke="2" strokeColor="0x15355e" anchorOffsetX="10.5" anchorOffsetY="9"/>
+		</e:Group>
+		<e:Group x="67" y="149.06" touchEnabled="false" anchorOffsetX="14" anchorOffsetY="14" visible="false">
+			<e:Image touchEnabled="false" source="fishBD3" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="autoQuantity" text="99" touchEnabled="false" size="18" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" verticalAlign="middle" textAlign="center" textColor="0xffffff" stroke="2" strokeColor="0x15355e" anchorOffsetX="10.5" anchorOffsetY="9"/>
+		</e:Group>
+		<e:Group x="67" y="64.74" touchEnabled="false" anchorOffsetX="14" anchorOffsetY="14" visible="false">
+			<e:Image touchEnabled="false" source="fishBD3" scaleX="1" scaleY="1" verticalCenter="1" horizontalCenter="0"/>
+			<e:Label id="aimQuantity" text="99" touchEnabled="false" size="18" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" verticalAlign="middle" textAlign="center" textColor="0xffffff" stroke="2" strokeColor="0x15355e" anchorOffsetX="10.5" anchorOffsetY="9"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="exitGameBtn" y="4" source="fishMenu" right="5"/>
+
+	<e:CheckBox id="gmCheckBox" label="GM" anchorOffsetX="0" width="80" anchorOffsetY="0" height="30" bottom="0" left="0" skinName="GMButtonSkin_fish"/>
+	<e:CheckBox id="sceneSwitching" label="测试" anchorOffsetX="0" width="62" anchorOffsetY="0" height="54" skinName="GMButtonSkin_fish" right="13" y="172"/>
+
+	<e:CheckBox id="nineGrid" label="九屏" anchorOffsetX="0" width="62" anchorOffsetY="0" height="54" bottom="574" left="1204" skinName="GMButtonSkin_fish" visible="false"/>
+	<e:Group id="gmGroup" anchorOffsetY="0" anchorOffsetX="0" bottom="30" left="0">
+		<e:layout>
+		<e:VerticalLayout gap="0" verticalAlign="bottom"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="goldPoolLabel" text="0" size="18" textColor="0x28ff00" horizontalCenter="0" y="0" visible="false"/>
+	<e:Image id="helpBtn" y="82" source="FishHelp1" right="5"/>
+
+
+</e:Skin>

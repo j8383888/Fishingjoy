@@ -1,0 +1,184 @@
+{
+  "mc": {
+    "action": {
+      "frameRate": 10,
+      "labels": [
+        {
+          "name": "mc",
+          "frame": 1,
+          "end": 15
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "Mermaid_spine-animation3_0",
+          "x": -117,
+          "y": -238
+        },
+        {
+          "res": "Mermaid_spine-animation3_1",
+          "x": -132,
+          "y": -240
+        },
+        {
+          "res": "Mermaid_spine-animation3_2",
+          "x": -138,
+          "y": -243
+        },
+        {
+          "res": "Mermaid_spine-animation3_3",
+          "x": -126,
+          "y": -248
+        },
+        {
+          "res": "Mermaid_spine-animation3_4",
+          "x": -109,
+          "y": -254
+        },
+        {
+          "res": "Mermaid_spine-animation3_5",
+          "x": -104,
+          "y": -259
+        },
+        {
+          "res": "Mermaid_spine-animation3_6",
+          "x": -108,
+          "y": -262
+        },
+        {
+          "res": "Mermaid_spine-animation3_7",
+          "x": -114,
+          "y": -263
+        },
+        {
+          "res": "Mermaid_spine-animation3_8",
+          "x": -120,
+          "y": -261
+        },
+        {
+          "res": "Mermaid_spine-animation3_9",
+          "x": -121,
+          "y": -258
+        },
+        {
+          "res": "Mermaid_spine-animation3_10",
+          "x": -116,
+          "y": -254
+        },
+        {
+          "res": "Mermaid_spine-animation3_11",
+          "x": -108,
+          "y": -250
+        },
+        {
+          "res": "Mermaid_spine-animation3_12",
+          "x": -105,
+          "y": -245
+        },
+        {
+          "res": "Mermaid_spine-animation3_13",
+          "x": -108,
+          "y": -241
+        },
+        {
+          "res": "Mermaid_spine-animation3_14",
+          "x": -114,
+          "y": -238
+        }
+      ]
+    }
+  },
+  "res": {
+    "Mermaid_spine-animation3_0": {
+      "x": 1256,
+      "y": 0,
+      "w": 243,
+      "h": 461
+    },
+    "Mermaid_spine-animation3_1": {
+      "x": 263,
+      "y": 518,
+      "w": 258,
+      "h": 473
+    },
+    "Mermaid_spine-animation3_2": {
+      "x": 0,
+      "y": 0,
+      "w": 279,
+      "h": 483
+    },
+    "Mermaid_spine-animation3_3": {
+      "x": 531,
+      "y": 0,
+      "w": 248,
+      "h": 503
+    },
+    "Mermaid_spine-animation3_4": {
+      "x": 1024,
+      "y": 0,
+      "w": 231,
+      "h": 486
+    },
+    "Mermaid_spine-animation3_5": {
+      "x": 1271,
+      "y": 462,
+      "w": 226,
+      "h": 446
+    },
+    "Mermaid_spine-animation3_6": {
+      "x": 1498,
+      "y": 481,
+      "w": 229,
+      "h": 423
+    },
+    "Mermaid_spine-animation3_7": {
+      "x": 1729,
+      "y": 0,
+      "w": 250,
+      "h": 427
+    },
+    "Mermaid_spine-animation3_8": {
+      "x": 531,
+      "y": 504,
+      "w": 263,
+      "h": 450
+    },
+    "Mermaid_spine-animation3_9": {
+      "x": 0,
+      "y": 484,
+      "w": 262,
+      "h": 485
+    },
+    "Mermaid_spine-animation3_10": {
+      "x": 280,
+      "y": 0,
+      "w": 250,
+      "h": 517
+    },
+    "Mermaid_spine-animation3_11": {
+      "x": 795,
+      "y": 0,
+      "w": 228,
+      "h": 508
+    },
+    "Mermaid_spine-animation3_12": {
+      "x": 1500,
+      "y": 0,
+      "w": 228,
+      "h": 480
+    },
+    "Mermaid_spine-animation3_13": {
+      "x": 1036,
+      "y": 487,
+      "w": 234,
+      "h": 462
+    },
+    "Mermaid_spine-animation3_14": {
+      "x": 795,
+      "y": 509,
+      "w": 240,
+      "h": 460
+    }
+  }
+}

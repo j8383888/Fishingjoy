@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PathItemRenderSkin" width="210" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0x1e1e3a"/>
+	<e:Rect id="selectedRect" width="100%" height="100%" x="0" y="0" fillColor="0x2d291b"/>
+	<e:Label id="pathIdLabel" text="1001" y="0" fontFamily="SimHei" horizontalCenter="0"/>
+	<e:CheckBox id="itemCheck" label="" verticalCenter="0" left="5" currentState="up">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="checkbox_unselect_png" source.down="checkbox_select_down_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:CheckBox>
+</e:Skin>

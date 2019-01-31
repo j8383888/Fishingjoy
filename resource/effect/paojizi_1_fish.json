@@ -1,0 +1,63 @@
+{
+  "mc": {
+    "action": {
+      "frameRate": 10,
+      "labels": [
+        {
+          "name": "mc",
+          "frame": 1,
+          "end": 4
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "paojihuang_00044",
+          "x": -45,
+          "y": 14
+        },
+        {
+          "res": "paojihuang_00045",
+          "x": -49,
+          "y": -38
+        },
+        {
+          "res": "paojihuang_00046",
+          "x": -42,
+          "y": -44
+        },
+        {
+          "res": "paojihuang_00047",
+          "x": -32,
+          "y": -4
+        }
+      ]
+    }
+  },
+  "res": {
+    "paojihuang_00044": {
+      "x": 0,
+      "y": 89,
+      "w": 74,
+      "h": 36
+    },
+    "paojihuang_00045": {
+      "x": 0,
+      "y": 0,
+      "w": 97,
+      "h": 88
+    },
+    "paojihuang_00046": {
+      "x": 98,
+      "y": 0,
+      "w": 85,
+      "h": 94
+    },
+    "paojihuang_00047": {
+      "x": 184,
+      "y": 0,
+      "w": 63,
+      "h": 54
+    }
+  }
+}

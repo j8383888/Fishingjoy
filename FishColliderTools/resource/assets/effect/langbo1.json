@@ -1,0 +1,74 @@
+{
+  "mc": {
+    "action": {
+      "frameRate": 10,
+      "labels": [
+        {
+          "name": "mc",
+          "frame": 1,
+          "end": 5
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "jinselanghua_1",
+          "x": -80,
+          "y": -367
+        },
+        {
+          "res": "jinselanghua_2",
+          "x": -82,
+          "y": -366
+        },
+        {
+          "res": "jinselanghua_3",
+          "x": -75,
+          "y": -365
+        },
+        {
+          "res": "jinselanghua_4",
+          "x": -79,
+          "y": -359
+        },
+        {
+          "res": "jinselanghua_5",
+          "x": -77,
+          "y": -357
+        }
+      ]
+    }
+  },
+  "res": {
+    "jinselanghua_1": {
+      "x": 0,
+      "y": 0,
+      "w": 185,
+      "h": 725
+    },
+    "jinselanghua_2": {
+      "x": 371,
+      "y": 0,
+      "w": 184,
+      "h": 719
+    },
+    "jinselanghua_3": {
+      "x": 738,
+      "y": 0,
+      "w": 177,
+      "h": 726
+    },
+    "jinselanghua_4": {
+      "x": 186,
+      "y": 0,
+      "w": 184,
+      "h": 720
+    },
+    "jinselanghua_5": {
+      "x": 556,
+      "y": 0,
+      "w": 181,
+      "h": 721
+    }
+  }
+}

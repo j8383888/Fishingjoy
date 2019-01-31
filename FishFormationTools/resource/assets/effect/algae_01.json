@@ -1,0 +1,162 @@
+{
+  "mc": {
+    "action": {
+      "frameRate": 10,
+      "labels": [
+        {
+          "name": "mc",
+          "frame": 1,
+          "end": 13
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "algae_01-animation_0",
+          "x": -28,
+          "y": -28
+        },
+        {
+          "res": "algae_01-animation_1",
+          "x": -28,
+          "y": -28
+        },
+        {
+          "res": "algae_01-animation_2",
+          "x": -29,
+          "y": -28
+        },
+        {
+          "res": "algae_01-animation_3",
+          "x": -29,
+          "y": -29
+        },
+        {
+          "res": "algae_01-animation_4",
+          "x": -29,
+          "y": -29
+        },
+        {
+          "res": "algae_01-animation_5",
+          "x": -30,
+          "y": -29
+        },
+        {
+          "res": "algae_01-animation_6",
+          "x": -30,
+          "y": -28
+        },
+        {
+          "res": "algae_01-animation_7",
+          "x": -30,
+          "y": -27
+        },
+        {
+          "res": "algae_01-animation_8",
+          "x": -29,
+          "y": -27
+        },
+        {
+          "res": "algae_01-animation_9",
+          "x": -28,
+          "y": -27
+        },
+        {
+          "res": "algae_01-animation_10",
+          "x": -28,
+          "y": -27
+        },
+        {
+          "res": "algae_01-animation_11",
+          "x": -28,
+          "y": -27
+        },
+        {
+          "res": "algae_01-animation_12",
+          "x": -28,
+          "y": -28
+        }
+      ]
+    }
+  },
+  "res": {
+    "algae_01-animation_0": {
+      "x": 175,
+      "y": 56,
+      "w": 56,
+      "h": 55
+    },
+    "algae_01-animation_1": {
+      "x": 118,
+      "y": 56,
+      "w": 56,
+      "h": 56
+    },
+    "algae_01-animation_2": {
+      "x": 60,
+      "y": 59,
+      "w": 57,
+      "h": 57
+    },
+    "algae_01-animation_3": {
+      "x": 0,
+      "y": 0,
+      "w": 58,
+      "h": 59
+    },
+    "algae_01-animation_4": {
+      "x": 59,
+      "y": 0,
+      "w": 58,
+      "h": 58
+    },
+    "algae_01-animation_5": {
+      "x": 0,
+      "y": 60,
+      "w": 59,
+      "h": 57
+    },
+    "algae_01-animation_6": {
+      "x": 118,
+      "y": 0,
+      "w": 59,
+      "h": 55
+    },
+    "algae_01-animation_7": {
+      "x": 178,
+      "y": 0,
+      "w": 58,
+      "h": 54
+    },
+    "algae_01-animation_8": {
+      "x": 0,
+      "y": 118,
+      "w": 56,
+      "h": 54
+    },
+    "algae_01-animation_9": {
+      "x": 56,
+      "y": 173,
+      "w": 55,
+      "h": 54
+    },
+    "algae_01-animation_10": {
+      "x": 0,
+      "y": 173,
+      "w": 55,
+      "h": 54
+    },
+    "algae_01-animation_11": {
+      "x": 57,
+      "y": 118,
+      "w": 55,
+      "h": 54
+    },
+    "algae_01-animation_12": {
+      "x": 175,
+      "y": 56,
+      "w": 56,
+      "h": 55
+    }
+  }
+}

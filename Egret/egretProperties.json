@@ -1,0 +1,62 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "5.0.15",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "uniLib",
+			"path": "../../../libsrc/uniLib"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "pureMvc",
+			"path": "pureMvc"
+		},
+		{
+			"name": "particle",
+			"path": "../../../egret-game-library/particle/libsrc"
+		},
+		{
+			"name": "pokerClientLib",
+			"path": "../../../libsrc/PokerClientLib"
+		},
+		{
+			"name": "mahjongClientLib",
+			"path": "../../../libsrc/MahjongClientLib"
+		},
+		{
+			"name": "mahjongLobbyLib",
+			"path": "../../../libsrc/MahjongLobbyLib"
+		},
+		{
+			"name": "mouse",
+			"path": "../../../egret-game-library/mouse/libsrc"
+		}
+	]
+}

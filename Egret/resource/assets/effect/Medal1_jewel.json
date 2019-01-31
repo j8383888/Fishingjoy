@@ -1,0 +1,118 @@
+{
+  "mc": {
+    "action": {
+      "frameRate": 10,
+      "labels": [
+        {
+          "name": "mc",
+          "frame": 1,
+          "end": 9
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "Cuprum_up_jewel_00000",
+          "x": -104,
+          "y": -117
+        },
+        {
+          "res": "Cuprum_up_jewel_00001",
+          "x": -103,
+          "y": -113
+        },
+        {
+          "res": "Cuprum_up_jewel_00002",
+          "x": -114,
+          "y": -108
+        },
+        {
+          "res": "Cuprum_up_jewel_00003",
+          "x": -117,
+          "y": -106
+        },
+        {
+          "res": "Cuprum_up_jewel_00004",
+          "x": -117,
+          "y": -106
+        },
+        {
+          "res": "Cuprum_up_jewel_00005",
+          "x": -114,
+          "y": -102
+        },
+        {
+          "res": "Cuprum_up_jewel_00006",
+          "x": -110,
+          "y": -109
+        },
+        {
+          "res": "Cuprum_up_jewel_00007",
+          "x": -105,
+          "y": -119
+        },
+        {
+          "res": "Cuprum_up_jewel_00008",
+          "x": -105,
+          "y": -119
+        }
+      ]
+    }
+  },
+  "res": {
+    "Cuprum_up_jewel_00000": {
+      "x": 644,
+      "y": 0,
+      "w": 207,
+      "h": 227
+    },
+    "Cuprum_up_jewel_00001": {
+      "x": 0,
+      "y": 441,
+      "w": 203,
+      "h": 220
+    },
+    "Cuprum_up_jewel_00002": {
+      "x": 420,
+      "y": 0,
+      "w": 223,
+      "h": 211
+    },
+    "Cuprum_up_jewel_00003": {
+      "x": 0,
+      "y": 232,
+      "w": 231,
+      "h": 208
+    },
+    "Cuprum_up_jewel_00004": {
+      "x": 232,
+      "y": 231,
+      "w": 230,
+      "h": 207
+    },
+    "Cuprum_up_jewel_00005": {
+      "x": 680,
+      "y": 228,
+      "w": 224,
+      "h": 201
+    },
+    "Cuprum_up_jewel_00006": {
+      "x": 463,
+      "y": 228,
+      "w": 216,
+      "h": 213
+    },
+    "Cuprum_up_jewel_00007": {
+      "x": 210,
+      "y": 0,
+      "w": 209,
+      "h": 230
+    },
+    "Cuprum_up_jewel_00008": {
+      "x": 0,
+      "y": 0,
+      "w": 209,
+      "h": 231
+    }
+  }
+}

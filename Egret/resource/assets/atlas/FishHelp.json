@@ -1,0 +1,65 @@
+{
+  "file": "FishHelp.png",
+  "frames": {
+    "FishHelp1": {
+      "x": 925,
+      "y": 626,
+      "w": 77,
+      "h": 78,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 77,
+      "sourceH": 78
+    },
+    "FishHelp2": {
+      "x": 844,
+      "y": 0,
+      "w": 1039,
+      "h": 568,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1039,
+      "sourceH": 568
+    },
+    "FishHelp3": {
+      "x": 844,
+      "y": 569,
+      "w": 228,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 228,
+      "sourceH": 56
+    },
+    "FishHelp4": {
+      "x": 844,
+      "y": 626,
+      "w": 80,
+      "h": 84,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 80,
+      "sourceH": 84
+    },
+    "FishHelp5": {
+      "x": 0,
+      "y": 0,
+      "w": 843,
+      "h": 1788,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 862,
+      "sourceH": 1810
+    },
+    "Fishtest": {
+      "x": 844,
+      "y": 711,
+      "w": 78,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 78,
+      "sourceH": 72
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{"file":"flutters2.png","frames":{
+"0":{"x":0,"y":0,"w":50,"h":58,"offX":0,"offY":1,"sourceW":50,"sourceH":59},
+"1":{"x":130,"y":180,"w":27,"h":58,"offX":0,"offY":0,"sourceW":27,"sourceH":59},
+"2":{"x":0,"y":181,"w":44,"h":58,"offX":0,"offY":1,"sourceW":44,"sourceH":59},
+"3":{"x":98,"y":0,"w":43,"h":58,"offX":0,"offY":1,"sourceW":43,"sourceH":59},
+"4":{"x":0,"y":60,"w":44,"h":59,"offX":0,"offY":0,"sourceW":44,"sourceH":59},
+"5":{"x":46,"y":120,"w":43,"h":58,"offX":0,"offY":1,"sourceW":43,"sourceH":59},
+"6":{"x":52,"y":0,"w":44,"h":58,"offX":0,"offY":1,"sourceW":44,"sourceH":59},
+"7":{"x":46,"y":180,"w":41,"h":58,"offX":0,"offY":1,"sourceW":41,"sourceH":59},
+"8":{"x":46,"y":60,"w":44,"h":58,"offX":0,"offY":1,"sourceW":44,"sourceH":59},
+"9":{"x":0,"y":121,"w":44,"h":58,"offX":0,"offY":1,"sourceW":44,"sourceH":59},
+".":{"x":111,"y":120,"w":17,"h":27,"offX":0,"offY":30,"sourceW":17,"sourceH":59},
+",":{"x":91,"y":120,"w":18,"h":31,"offX":0,"offY":28,"sourceW":18,"sourceH":59},
+"+":{"x":89,"y":180,"w":39,"h":47,"offX":0,"offY":7,"sourceW":39,"sourceH":59}}}

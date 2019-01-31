@@ -1,0 +1,6 @@
+[
+{"level":1,"name":"初级场","upBankerPointMin":50},
+{"level":2,"name":"中级场","upBankerPointMin":10},
+{"level":3,"name":"高级场","upBankerPointMin":5},
+{"level":4,"name":"大师场","upBankerPointMin":5}
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainEditorSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0x1d3505" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+	<e:Group width="500" x="0" anchorOffsetX="0" anchorOffsetY="0" top="0" bottom="0">
+
+		<e:Scroller scaleX="1" scaleY="1" touchEnabled="true" touchChildren="true" enabled="true" anchorOffsetX="0" left="0"
+		            top="0" bottom="0" right="0">
+			<e:Group x="-2" width="200" scrollEnabled="true" y="-1">
+				<e:List id="fishList" x="0" y="0" scrollEnabled="true" >
+					<e:layout>
+						<e:TileLayout requestedColumnCount="3"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="editorView" width="774" anchorOffsetX="0" anchorOffsetY="0" height="500" x="506" y="0">
+		<e:Group id="editFishGroup" y="250" x="387">
+			<e:Rect fillColor="0x1E1E3A" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group width="752" height="118" y="514" anchorOffsetX="0" anchorOffsetY="0" x="510">
+		<e:Button id="deleteButton" label="删除" x="186" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50" y="34"/>
+		<e:Button id="saveButton" label="保存" x="326" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50" y="34"/>
+		<e:Label text="有效区域" x="18" verticalCenter="0"/>
+		<e:Button id="downButton" label="下载" x="466" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50" y="34"/>
+	</e:Group>
+</e:Skin>

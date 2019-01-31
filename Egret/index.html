@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Egret</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="full-screen" content="true" />
+	<meta name="screen-orientation" content="portrait" />
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="360-fullscreen" content="true" />
+	<!--version_start-->
+	<meta name="res-version" content="" />
+	<meta name="thm-version" content="" />
+	<!--version_end-->
+	<style>
+        html,
+        body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+<!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+<!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js"></script>
+	<script egret="lib" src="libs/modules/uniLib/uniLib.js"></script>
+	<script egret="lib" src="libs/modules/dragonBones/dragonBones.js"></script>
+	<script egret="lib" src="pureMvc/bin/pureMvc/pureMvc.js"></script>
+	<script egret="lib" src="libs/modules/particle/particle.js"></script>
+	<script egret="lib" src="libs/modules/pokerClientLib/pokerClientLib.js"></script>
+	<script egret="lib" src="libs/modules/mahjongClientLib/mahjongClientLib.js"></script>
+	<script egret="lib" src="libs/modules/mahjongLobbyLib/mahjongLobbyLib.js"></script>
+	<script egret="lib" src="libs/modules/mouse/mouse.js"></script>
+	<!--modules_files_end-->
+
+<!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+
+
+<!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+<!--game_files_start-->
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Base/GameObject.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Base/GameObjectRender.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Base/GameObjectCollider.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Operation/BaseOperation.js"></script>
+	<script egret="lib" src="bin-debug/tool/InteractiveObject.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/BaseUICenter.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Operation/BulletOperation.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Fish/Fish.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/BaseUIControl.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/BaseUIManager.js"></script>
+	<script egret="lib" src="bin-debug/tool/Button.js"></script>
+	<script egret="lib" src="bin-debug/util/SimpleMap.js"></script>
+	<script egret="lib" src="bin-debug/util/BasePopPanel.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/MainScene/FishBtn/ShakeTool.js"></script>
+	<script egret="lib" src="bin-debug/center/ConfigParse.js"></script>
+	<script egret="lib" src="bin-debug/center/DataCenter.js"></script>
+	<script egret="lib" src="bin-debug/center/GameCenter.js"></script>
+	<script egret="lib" src="bin-debug/center/GM.js"></script>
+	<script egret="lib" src="bin-debug/center/Master.js"></script>
+	<script egret="lib" src="bin-debug/center/SoundHand.js"></script>
+	<script egret="lib" src="bin-debug/center/SoundManager.js"></script>
+	<script egret="lib" src="bin-debug/data/GameConstant.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Collider/Collider.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/FishingJoyLogic/FishingJoyLogic.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/FishingJoyLogic/GlobeVars.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/FishingJoyLogic/NineGridSplitScreenTool.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/GameObjectConfigParse.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/GameObjectEnum.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/GameObjectFactory.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/GameObjectPool.js"></script>
+	<script egret="lib" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="lib" src="bin-debug/PublicLoadingView.js"></script>
+	<script egret="lib" src="bin-debug/ThemeAdapter.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Base/IGameObject.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Battery.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/FishingNet.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Bullet/Bullet.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Effect/BoomExEff.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Effect/DragonEff.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Effect/DragonTreasureEff.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Effect/MasterWinEff.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Effect/MermaidEff.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Effect/MermaidHeartEff.js"></script>
+	<script egret="lib" src="bin-debug/Atable/TableBankerRuleConfigList.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Fish/SpectialFish/BoomFish.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Fish/SpectialFish/BoomFishEx.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Fish/SpectialFish/ElectricEel.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Fish/SpectialFish/FreezeFish.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Fish/SpectialFish/GlobeFish.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Fish/SpectialFish/GoldToad.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Extends/Fish/SpectialFish/Mermaid.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/GameObject/Skill/FishSkillTool.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/MainScene/FishMainSceneControl.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/MainScene/FishMainSceneManager.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/MainScene/FishMainSceneView.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/MainScene/FishBtn/FishBtnControl.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/MainScene/FishBtn/FishBtnView.js"></script>
+	<script egret="lib" src="bin-debug/FishMain.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/MainScene/FishBtn/SkillCDEffect.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/MainScene/FishHelp/FishHelpControl.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/MainScene/FishHelp/FishHelpManager.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/MainScene/FishHelp/FishHelpView.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/MainScene/Seat/SeatView.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Manager/Canves.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Manager/GameObjectManager.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Manager/LayerManager.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Manager/OperationManager.js"></script>
+	<script egret="lib" src="bin-debug/Atable/TableBatteryConfig.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Operation/BatteryOperation.js"></script>
+	<script egret="lib" src="bin-debug/Atable/TableBulletConfig.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Operation/BulletTrackOperation.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Operation/FishOperation.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Operation/MasterBatteryOperation.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Operation/SimpleOperation.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Templet/TempletControl.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Templet/TempletManager.js"></script>
+	<script egret="lib" src="bin-debug/FishingJoy/Templet/TempletView.js"></script>
+	<script egret="lib" src="bin-debug/Laya/Laya.js"></script>
+	<script egret="lib" src="bin-debug/mvc/FishMediator.js"></script>
+	<script egret="lib" src="bin-debug/mvc/PokerGameScene.js"></script>
+	<script egret="lib" src="bin-debug/Atable/TableFishBoom.js"></script>
+	<script egret="lib" src="bin-debug/Atable/TableFishConfig.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/BaseUIData.js"></script>
+	<script egret="lib" src="bin-debug/Atable/TableFishPath.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/BaseUIView.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/Map.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/ResData.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/UICenter.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/UIControlCenter.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/UIDataCenter.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/UIOpenParam.js"></script>
+	<script egret="lib" src="bin-debug/MVCcore/UIViewCenter.js"></script>
+	<script egret="lib" src="bin-debug/Atable/TableFishTeamConfig.js"></script>
+	<script egret="lib" src="bin-debug/tool/ImagePlayer.js"></script>
+	<script egret="lib" src="bin-debug/Atable/TableGameRuleConfigList.js"></script>
+	<script egret="lib" src="bin-debug/tool/MoviePlayer.js"></script>
+	<script egret="lib" src="bin-debug/tool/PageComponent.js"></script>
+	<script egret="lib" src="bin-debug/tool/ToggleButton.js"></script>
+	<script egret="lib" src="bin-debug/tool/ToggleButtonGroup.js"></script>
+	<script egret="lib" src="bin-debug/tool/Xtable.js"></script>
+	<script egret="lib" src="bin-debug/Atable/TablePropConfig.js"></script>
+	<script egret="lib" src="bin-debug/util/CacheManager.js"></script>
+	<script egret="lib" src="bin-debug/util/ColorUtil.js"></script>
+	<script egret="lib" src="bin-debug/util/CustomerImage.js"></script>
+	<script egret="lib" src="bin-debug/util/Dictionary.js"></script>
+	<script egret="lib" src="bin-debug/util/EventManager.js"></script>
+	<script egret="lib" src="bin-debug/util/Handler.js"></script>
+	<script egret="lib" src="bin-debug/util/PCMouseHelper.js"></script>
+	<script egret="lib" src="bin-debug/util/Pool.js"></script>
+	<script egret="lib" src="bin-debug/util/PoolCache.js"></script>
+	<script egret="lib" src="bin-debug/Atable/TableRoomConfig.js"></script>
+	<script egret="lib" src="bin-debug/util/SOUND_CONST.js"></script>
+	<script egret="lib" src="bin-debug/util/Timer.js"></script>
+	<script egret="lib" src="bin-debug/util/UIUtil.js"></script>
+	<!--game_files_end-->
+</head>
+
+<body>
+
+	<div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="FishMain" data-orientation="auto" data-scale-mode="showAll" data-frame-rate="30"
+data-content-width="1280" data-content-height="720" data-show-paint-rect="false" data-multi-fingered="1" data-show-fps="true"
+data-show-log="true" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+</div>
+<script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": "" //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * }
+         **/
+		;
+		egret.runEgret({
+			renderMode: "webgl",
+			audioType: 0
+		});
+	</script>
+</body>
+
+</html>

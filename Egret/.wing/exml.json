@@ -1,0 +1,25 @@
+{
+  "15bc90e7691": {
+    "path": "../resource/eui_skins/testEui.ts",
+    "class": "testEui",
+    "parentPath": ""
+  },
+  "15bcbdf571c": {
+    "path": "../resource/eui_skins/testEui.ts",
+    "class": "testEui",
+    "parentPath": ""
+  },
+  "15bcbed210d": {
+    "path": "../resource/eui_skins/euiTest.ts",
+    "class": "euiTest",
+    "parentPath": ""
+  },
+  "15bcbfd64db": {
+    "path": "../resource/eui_skins/testEui.ts",
+    "class": "testEui",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": true
+  }
+}

@@ -1,0 +1,12 @@
+[
+{"id":1001,"fishTeam":[{"templateId":6,"offsetX":0,"offsetY":0},{"templateId":6,"offsetX":15,"offsetY":30},{"templateId":6,"offsetX":-30,"offsetY":15},{"templateId":6,"offsetX":-60,"offsetY":0},{"templateId":6,"offsetX":-90,"offsetY":45}]},
+{"id":1002,"fishTeam":[{"templateId":6,"offsetX":0,"offsetY":0},{"templateId":6,"offsetX":-30,"offsetY":-30},{"templateId":6,"offsetX":-75,"offsetY":-15},{"templateId":6,"offsetX":-105,"offsetY":-30}]},
+{"id":2001,"fishTeam":[{"templateId":5,"offsetX":0,"offsetY":0},{"templateId":5,"offsetX":30,"offsetY":-30},{"templateId":5,"offsetX":-45,"offsetY":-45}]},
+{"id":2002,"fishTeam":[{"templateId":5,"offsetX":0,"offsetY":0},{"templateId":5,"offsetX":-45,"offsetY":-30}]},
+{"id":3001,"fishTeam":[{"templateId":21,"offsetX":0,"offsetY":0},{"templateId":21,"offsetX":30,"offsetY":30},{"templateId":21,"offsetX":-45,"offsetY":15}]},
+{"id":3002,"fishTeam":[{"templateId":21,"offsetX":0,"offsetY":0},{"templateId":21,"offsetX":-45,"offsetY":15}]},
+{"id":4001,"fishTeam":[{"templateId":25,"offsetX":0,"offsetY":0},{"templateId":25,"offsetX":-75,"offsetY":15},{"templateId":25,"offsetX":-15,"offsetY":45}]},
+{"id":4002,"fishTeam":[{"templateId":25,"offsetX":0,"offsetY":0},{"templateId":25,"offsetX":45,"offsetY":45}]},
+{"id":5001,"fishTeam":[{"templateId":7,"offsetX":0,"offsetY":0},{"templateId":7,"offsetX":60,"offsetY":15},{"templateId":7,"offsetX":-15,"offsetY":45}]},
+{"id":5002,"fishTeam":[{"templateId":7,"offsetX":0,"offsetY":0},{"templateId":7,"offsetX":45,"offsetY":30}]}
+]

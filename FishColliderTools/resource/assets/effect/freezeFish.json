@@ -1,0 +1,195 @@
+{
+  "mc": {
+    "action": {
+      "frameRate": 10,
+      "labels": [
+        {
+          "name": "mc",
+          "frame": 1,
+          "end": 16
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "skeleton-animation_0",
+          "x": -71,
+          "y": -85
+        },
+        {
+          "res": "skeleton-animation_1",
+          "x": -70,
+          "y": -79
+        },
+        {
+          "res": "skeleton-animation_2",
+          "x": -70,
+          "y": -71
+        },
+        {
+          "res": "skeleton-animation_3",
+          "x": -69,
+          "y": -64
+        },
+        {
+          "res": "skeleton-animation_4",
+          "x": -67,
+          "y": -58
+        },
+        {
+          "res": "skeleton-animation_5",
+          "x": -66,
+          "y": -53
+        },
+        {
+          "res": "skeleton-animation_6",
+          "x": -65,
+          "y": -48
+        },
+        {
+          "res": "skeleton-animation_7",
+          "x": -64,
+          "y": -45
+        },
+        {
+          "res": "skeleton-animation_8",
+          "x": -61,
+          "y": -49
+        },
+        {
+          "res": "skeleton-animation_9",
+          "x": -56,
+          "y": -52
+        },
+        {
+          "res": "skeleton-animation_10",
+          "x": -54,
+          "y": -56
+        },
+        {
+          "res": "skeleton-animation_11",
+          "x": -56,
+          "y": -63
+        },
+        {
+          "res": "skeleton-animation_12",
+          "x": -59,
+          "y": -70
+        },
+        {
+          "res": "skeleton-animation_13",
+          "x": -64,
+          "y": -78
+        },
+        {
+          "res": "skeleton-animation_14",
+          "x": -68,
+          "y": -84
+        },
+        {
+          "res": "skeleton-animation_15",
+          "x": -71,
+          "y": -86
+        }
+      ]
+    }
+  },
+  "res": {
+    "skeleton-animation_0": {
+      "x": 145,
+      "y": 0,
+      "w": 144,
+      "h": 171
+    },
+    "skeleton-animation_1": {
+      "x": 0,
+      "y": 173,
+      "w": 143,
+      "h": 160
+    },
+    "skeleton-animation_2": {
+      "x": 144,
+      "y": 173,
+      "w": 143,
+      "h": 143
+    },
+    "skeleton-animation_3": {
+      "x": 290,
+      "y": 165,
+      "w": 141,
+      "h": 127
+    },
+    "skeleton-animation_4": {
+      "x": 288,
+      "y": 293,
+      "w": 139,
+      "h": 113
+    },
+    "skeleton-animation_5": {
+      "x": 432,
+      "y": 119,
+      "w": 138,
+      "h": 102
+    },
+    "skeleton-animation_6": {
+      "x": 432,
+      "y": 222,
+      "w": 136,
+      "h": 92
+    },
+    "skeleton-animation_7": {
+      "x": 276,
+      "y": 407,
+      "w": 135,
+      "h": 85
+    },
+    "skeleton-animation_8": {
+      "x": 571,
+      "y": 106,
+      "w": 132,
+      "h": 93
+    },
+    "skeleton-animation_9": {
+      "x": 688,
+      "y": 0,
+      "w": 127,
+      "h": 98
+    },
+    "skeleton-animation_10": {
+      "x": 561,
+      "y": 0,
+      "w": 126,
+      "h": 105
+    },
+    "skeleton-animation_11": {
+      "x": 432,
+      "y": 0,
+      "w": 128,
+      "h": 118
+    },
+    "skeleton-animation_12": {
+      "x": 144,
+      "y": 317,
+      "w": 131,
+      "h": 131
+    },
+    "skeleton-animation_13": {
+      "x": 0,
+      "y": 334,
+      "w": 137,
+      "h": 149
+    },
+    "skeleton-animation_14": {
+      "x": 290,
+      "y": 0,
+      "w": 141,
+      "h": 164
+    },
+    "skeleton-animation_15": {
+      "x": 0,
+      "y": 0,
+      "w": 144,
+      "h": 172
+    }
+  }
+}

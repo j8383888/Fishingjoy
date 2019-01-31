@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="by_MermaidHeartSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="mermaidHeartTemplete" scaleX="1.4" scaleY="1.4" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+	<e:Group id="rectBox" x="426" y="427" visible="false">
+		<e:Rect id="a14" width="45" height="45" x="-163.28" y="-203.94"/>
+		<e:Rect id="a12" width="45" height="45" x="-66.65" y="-178.94"/>
+		<e:Rect id="a13" width="45" height="45" x="-113.98" y="-202.6"/>
+		<e:Rect id="a1" width="45" height="45" x="21.4" y="-177.61"/>
+		<e:Rect id="a3" width="45" height="45" x="118.54" y="-202.78"/>
+		<e:Rect id="a2" width="45" height="45" x="70.36" y="-202.6"/>
+		<e:Rect id="a4" width="45" height="45" x="164.87" y="-165.94"/>
+		<e:Rect id="a5" width="45" height="45" x="190.02" y="-120.94"/>
+		<e:Rect id="a6" width="45" height="45" x="202.01" y="-73.94"/>
+		<e:Rect id="a8" width="45" height="45" x="156.71" y="20.38"/>
+		<e:Rect id="a7" width="45" height="45" x="187.37" y="-24.94"/>
+		<e:Rect id="a9" width="45" height="45" x="118.02" y="62.06"/>
+		<e:Rect id="a10" width="45" height="45" x="74.65" y="109.06"/>
+		<e:Rect id="a11" width="45" height="45" x="30.37" y="142"/>
+		<e:Rect id="a23" width="45" height="45" x="-21.95" y="167.39"/>
+		<e:Rect id="a22" width="45" height="45" x="-73.34" y="142"/>
+		<e:Rect id="a21" width="45" height="45" x="-126.65" y="109.06"/>
+		<e:Rect id="a20" width="45" height="45" x="-166.65" y="62.06"/>
+		<e:Rect id="a19" width="45" height="45" x="-206.65" y="20.38"/>
+		<e:Rect id="a18" width="45" height="45" x="-226.65" y="-24.94"/>
+		<e:Rect id="a17" width="45" height="45" x="-239.95" y="-73.94"/>
+		<e:Rect id="a16" width="45" height="45" x="-226.65" y="-120.94"/>
+		<e:Rect id="a15" width="45" height="45" x="-206.62" y="-168.28"/>
+		<e:Rect id="a0" width="45" height="45" x="-21.95" y="-141.27"/>
+	</e:Group>
+</e:Skin>

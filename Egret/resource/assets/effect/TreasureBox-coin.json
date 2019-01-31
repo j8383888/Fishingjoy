@@ -1,0 +1,107 @@
+{
+  "mc": {
+    "action": {
+      "frameRate": 10,
+      "labels": [
+        {
+          "name": "mc",
+          "frame": 1,
+          "end": 8
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "TreasureBox-coin_00005",
+          "x": -217,
+          "y": -170
+        },
+        {
+          "res": "TreasureBox-coin_00006",
+          "x": -277,
+          "y": -185
+        },
+        {
+          "res": "TreasureBox-coin_00007",
+          "x": -321,
+          "y": -217
+        },
+        {
+          "res": "TreasureBox-coin_00008",
+          "x": -248,
+          "y": -240
+        },
+        {
+          "res": "TreasureBox-coin_00009",
+          "x": -306,
+          "y": -242
+        },
+        {
+          "res": "TreasureBox-coin_00010",
+          "x": -299,
+          "y": -197
+        },
+        {
+          "res": "TreasureBox-coin_00011",
+          "x": -219,
+          "y": -228
+        },
+        {
+          "res": "TreasureBox-coin_00012",
+          "x": -278,
+          "y": -237
+        }
+      ]
+    }
+  },
+  "res": {
+    "TreasureBox-coin_00005": {
+      "x": 0,
+      "y": 1286,
+      "w": 417,
+      "h": 227
+    },
+    "TreasureBox-coin_00006": {
+      "x": 0,
+      "y": 980,
+      "w": 543,
+      "h": 305
+    },
+    "TreasureBox-coin_00007": {
+      "x": 543,
+      "y": 0,
+      "w": 636,
+      "h": 407
+    },
+    "TreasureBox-coin_00008": {
+      "x": 0,
+      "y": 543,
+      "w": 595,
+      "h": 436
+    },
+    "TreasureBox-coin_00009": {
+      "x": 0,
+      "y": 0,
+      "w": 542,
+      "h": 542
+    },
+    "TreasureBox-coin_00010": {
+      "x": 1136,
+      "y": 492,
+      "w": 590,
+      "h": 355
+    },
+    "TreasureBox-coin_00011": {
+      "x": 596,
+      "y": 408,
+      "w": 539,
+      "h": 449
+    },
+    "TreasureBox-coin_00012": {
+      "x": 1180,
+      "y": 0,
+      "w": 484,
+      "h": 491
+    }
+  }
+}

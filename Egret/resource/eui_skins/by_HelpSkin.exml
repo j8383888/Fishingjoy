@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="by_HelpSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="FishHelp_json.FishHelp2" x="0" y="20"/>
+	<e:Image source="FishHelp_json.FishHelp3" x="406" y="42"/>
+	<e:Image id="closeBtn" source="FishHelp_json.FishHelp4" x="966" y="4"/>
+	<e:Scroller id="scroller" width="843" height="384" x="110" y="140" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:Group anchorOffsetY="0" height="384">
+
+			<e:Image source="FishHelp_json.FishHelp5" x="0" y="18" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

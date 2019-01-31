@@ -1,0 +1,13 @@
+{
+	"name": "egret",
+	"version": "3.1.8",
+	"modules": [
+		{
+			"name": "pureMvc",
+			"description": "pureMvc",
+			"files": ["puremvc-typescript-standard-1.0.js",
+        "puremvc-typescript-standard-1.0.d.ts"],
+			"root": "src"
+		}
+	]
+}

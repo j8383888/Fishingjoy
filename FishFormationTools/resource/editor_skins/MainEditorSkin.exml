@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainEditorSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0x1d3505" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" />
+	<e:Group id="fishGroup" width="212" x="0" anchorOffsetX="0" anchorOffsetY="0" top="45" bottom="0">
+		<e:Scroller scaleX="1" scaleY="1" touchEnabled="true" touchChildren="true" enabled="true" anchorOffsetX="0" left="0"
+		            top="0" bottom="0" right="0">
+			<e:Group x="-2" width="200" scrollEnabled="true" y="-1">
+				<e:List id="fishList" x="0" y="0" scrollEnabled="true">
+					<e:layout>
+						<e:TileLayout requestedColumnCount="2" />
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="formationGroup" width="100" x="211.36" anchorOffsetX="0" anchorOffsetY="0" top="44" bottom="0">
+		<e:Scroller scaleX="1" scaleY="1" touchEnabled="true" touchChildren="true" enabled="true" anchorOffsetX="0" left="0"
+		            top="0" bottom="0" right="0">
+			<e:Group x="-2" width="200" scrollEnabled="true" y="-1">
+				<e:List id="formationList" x="0" y="0" scrollEnabled="true" itemRendererSkinName="FormationSkin">
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="editorView" width="959.58" anchorOffsetX="0" anchorOffsetY="0" height="558" x="320.42" y="0">
+		<e:Group id="gridGroup" left="0" right="0" top="0" bottom="0"></e:Group>
+	</e:Group>
+	<e:Group width="949.03" height="158.85" anchorOffsetX="0" anchorOffsetY="0" x="324.97" bottom="0">
+		<e:Button id="deleteButton" label="删除路径/鱼" x="454.76" anchorOffsetX="0" width="124" anchorOffsetY="0" height="50" y="17.36"
+		          skinName="skins.ButtonSkin" />
+		<e:Button id="deleteFormationButton" label="删除鱼阵" x="720" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50" y="17.36" skinName="skins.ButtonSkin"/>
+		<e:Button id="clearButton" label="清空" x="596" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50" y="17.36" skinName="skins.ButtonSkin"/>
+		<e:Button id="newFormationButton" label="新建鱼阵" x="173.25" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50" y="17.36"/>
+		<e:Button id="changeSighButton" label="修改鱼阵编号" x="293.79" anchorOffsetX="0" width="142.43" anchorOffsetY="0" height="50" y="17.36"/>
+		<e:Button id="saveButton" label="保存" x="596" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50" y="90.44" />
+		<e:Button id="downButton" label="下载" x="720" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50" y="90.44" />
+
+
+		<e:Button id="mainFishButton" label="设置主鱼" x="847.53" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50"
+		          y="90.44" />
+		<e:RadioButton id="lineRadioButton" label="线" x="30" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50"
+		               y="95.43" />
+		<e:RadioButton id="circularRadioButton" label="圆" x="170" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50"
+		               y="95.43" />
+		<e:RadioButton id="pointRadioButton" label="点" x="312" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50"
+		               y="95.43" />
+		<e:RadioButton id="selectRadioButton" label="选择" x="476" anchorOffsetX="0" width="100" anchorOffsetY="0" height="50"
+		               y="95.43" />
+		<e:Rect width="120" height="41.21" x="28.01" y="18.84" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:EditableText id="signEditableText" width="120" height="27.27" text="" x="30.01" y="25.84" anchorOffsetX="0" anchorOffsetY="0" prompt="鱼阵编号" size="20" textAlign="left" verticalAlign="middle"/>
+	</e:Group>
+	<e:Scroller id="fishNumberScroller" width="100" height="153.03" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="fishNumberList" itemRendererSkinName="FishNumberItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object value="1"/>
+					<e:Object value="2"/>
+					<e:Object value="3"/>
+					<e:Object value="4"/>
+					<e:Object value="5"/>
+					<e:Object value="6"/>
+					<e:Object value="7"/>
+					<e:Object value="8"/>
+					<e:Object value="9"/>
+					<e:Object value="10"/>
+					<e:Object value="11"/>
+					<e:Object value="12"/>
+					<e:Object value="13"/>
+					<e:Object value="14"/>
+					<e:Object value="15"/>
+					<e:Object value="16"/>
+					<e:Object value="17"/>
+					<e:Object value="18"/>
+				</e:Array>
+			</e:ArrayCollection>
+
+		</e:List>
+	</e:Scroller>
+	<e:Label text="鱼列表" y="13.96" left="0" size="25"/>
+	<e:Label text="鱼阵" y="13.96" left="218" x="10" size="25"/>
+</e:Skin>

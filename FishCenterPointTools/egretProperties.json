@@ -1,0 +1,43 @@
+{
+  "engineVersion": "5.1.6",
+  "compilerVersion": "5.1.6",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins"
+    ],
+    "themes": [
+      "resource/default.thm.json"
+    ],
+    "exmlPublishPolicy": "commonjs"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "experimental"
+    },
+    {
+      "name": "promise"
+    }
+  ]
+}

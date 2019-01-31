@@ -1,0 +1,35 @@
+{
+  "file": "fishEff2.png",
+  "frames": {
+    "dragonCoin1": {
+      "x": 522,
+      "y": 0,
+      "w": 696,
+      "h": 76,
+      "offX": 13,
+      "offY": 12,
+      "sourceW": 719,
+      "sourceH": 103
+    },
+    "dragonCoin2": {
+      "x": 0,
+      "y": 469,
+      "w": 1077,
+      "h": 82,
+      "offX": 11,
+      "offY": 15,
+      "sourceW": 1093,
+      "sourceH": 108
+    },
+    "mermaidHeartTemplete": {
+      "x": 0,
+      "y": 0,
+      "w": 521,
+      "h": 468,
+      "offX": 43,
+      "offY": 71,
+      "sourceW": 600,
+      "sourceH": 600
+    }
+  }
+}

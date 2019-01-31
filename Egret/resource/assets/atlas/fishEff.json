@@ -1,0 +1,125 @@
+{
+  "file": "fishEff.png",
+  "frames": {
+    "BoomFishEx_eff1": {
+      "x": 361,
+      "y": 1366,
+      "w": 402,
+      "h": 173,
+      "offX": 47,
+      "offY": 127,
+      "sourceW": 500,
+      "sourceH": 300
+    },
+    "BoomFishEx_eff2": {
+      "x": 0,
+      "y": 801,
+      "w": 500,
+      "h": 300,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 500,
+      "sourceH": 300
+    },
+    "by_BoomExSettle2": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 800,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 800,
+      "sourceH": 800
+    },
+    "by_BoomExSettle3": {
+      "x": 0,
+      "y": 1803,
+      "w": 348,
+      "h": 197,
+      "offX": 2,
+      "offY": 3,
+      "sourceW": 350,
+      "sourceH": 200
+    },
+    "guangquan": {
+      "x": 801,
+      "y": 551,
+      "w": 468,
+      "h": 468,
+      "offX": 24,
+      "offY": 24,
+      "sourceW": 512,
+      "sourceH": 512
+    },
+    "hetunCircle_green": {
+      "x": 0,
+      "y": 1102,
+      "w": 360,
+      "h": 360,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 360,
+      "sourceH": 360
+    },
+    "hetunCircle_orange": {
+      "x": 1352,
+      "y": 0,
+      "w": 450,
+      "h": 450,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 450,
+      "sourceH": 450
+    },
+    "hetunCircle_yellow": {
+      "x": 801,
+      "y": 0,
+      "w": 550,
+      "h": 550,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 550,
+      "sourceH": 550
+    },
+    "highOddsFishDieEff": {
+      "x": 1352,
+      "y": 451,
+      "w": 403,
+      "h": 391,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 403,
+      "sourceH": 391
+    },
+    "highOddsFishDieEff2": {
+      "x": 0,
+      "y": 1463,
+      "w": 336,
+      "h": 339,
+      "offX": 32,
+      "offY": 31,
+      "sourceW": 400,
+      "sourceH": 400
+    },
+    "highOddsFishDieEff3": {
+      "x": 501,
+      "y": 801,
+      "w": 254,
+      "h": 255,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 254,
+      "sourceH": 255
+    },
+    "jiangzhang": {
+      "x": 361,
+      "y": 1102,
+      "w": 431,
+      "h": 263,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 431,
+      "sourceH": 263
+    }
+  }
+}

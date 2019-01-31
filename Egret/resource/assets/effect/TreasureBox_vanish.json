@@ -1,0 +1,151 @@
+{
+  "mc": {
+    "action": {
+      "frameRate": 10,
+      "labels": [
+        {
+          "name": "mc",
+          "frame": 1,  
+          "end": 12
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "TreasureBox_vanish_00000",
+          "x": -432,
+          "y": -139
+        },
+        {
+          "res": "TreasureBox_vanish_00001",
+          "x": -442,
+          "y": -142
+        },
+        {
+          "res": "TreasureBox_vanish_00002",
+          "x": -441,
+          "y": -150
+        },
+        {
+          "res": "TreasureBox_vanish_00003",
+          "x": -435,
+          "y": -135
+        },
+        {
+          "res": "TreasureBox_vanish_00004",
+          "x": -379,
+          "y": -106
+        },
+        {
+          "res": "TreasureBox_vanish_00005",
+          "x": -393,
+          "y": -119
+        },
+        {
+          "res": "TreasureBox_vanish_00006",
+          "x": -407,
+          "y": -132
+        },
+        {
+          "res": "TreasureBox_vanish_00007",
+          "x": -421,
+          "y": -146
+        },
+        {
+          "res": "TreasureBox_vanish_00008",
+          "x": -436,
+          "y": -159
+        },
+        {
+          "res": "TreasureBox_vanish_00009",
+          "x": -450,
+          "y": -184
+        },
+        {
+          "res": "TreasureBox_vanish_00010",
+          "x": -464,
+          "y": -164
+        },
+        {
+          "res": "TreasureBox_vanish_00011",
+          "x": -479,
+          "y": -179
+        }
+      ]
+    }
+  },
+  "res": {
+    "TreasureBox_vanish_00000": {
+      "x": 0,
+      "y": 996,
+      "w": 850,
+      "h": 284
+    },
+    "TreasureBox_vanish_00001": {
+      "x": 942,
+      "y": 641,
+      "w": 874,
+      "h": 279
+    },
+    "TreasureBox_vanish_00002": {
+      "x": 0,
+      "y": 1281,
+      "w": 873,
+      "h": 264
+    },
+    "TreasureBox_vanish_00003": {
+      "x": 0,
+      "y": 1803,
+      "w": 866,
+      "h": 239
+    },
+    "TreasureBox_vanish_00004": {
+      "x": 874,
+      "y": 1228,
+      "w": 819,
+      "h": 206
+    },
+    "TreasureBox_vanish_00005": {
+      "x": 851,
+      "y": 996,
+      "w": 843,
+      "h": 231
+    },
+    "TreasureBox_vanish_00006": {
+      "x": 0,
+      "y": 1546,
+      "w": 867,
+      "h": 256
+    },
+    "TreasureBox_vanish_00007": {
+      "x": 0,
+      "y": 713,
+      "w": 891,
+      "h": 282
+    },
+    "TreasureBox_vanish_00008": {
+      "x": 958,
+      "y": 329,
+      "w": 916,
+      "h": 311
+    },
+    "TreasureBox_vanish_00009": {
+      "x": 0,
+      "y": 356,
+      "w": 941,
+      "h": 356
+    },
+    "TreasureBox_vanish_00010": {
+      "x": 0,
+      "y": 0,
+      "w": 957,
+      "h": 355
+    },
+    "TreasureBox_vanish_00011": {
+      "x": 958,
+      "y": 0,
+      "w": 951,
+      "h": 328
+    }
+  }
+}

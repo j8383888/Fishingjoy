@@ -1,0 +1,129 @@
+{
+  "mc": {
+    "action": {
+      "frameRate": 10,
+      "labels": [
+        {
+          "name": "mc",
+          "frame": 1,
+          "end": 10
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "baofusaoguang_00000",
+          "x": -140,
+          "y": -55
+        },
+        {
+          "res": "baofusaoguang_00001",
+          "x": -140,
+          "y": -53
+        },
+        {
+          "res": "baofusaoguang_00002",
+          "x": -140,
+          "y": -53
+        },
+        {
+          "res": "baofusaoguang_00003",
+          "x": -113,
+          "y": -53
+        },
+        {
+          "res": "baofusaoguang_00004",
+          "x": -72,
+          "y": -55
+        },
+        {
+          "res": "baofusaoguang_00005",
+          "x": -32,
+          "y": -55
+        },
+        {
+          "res": "baofusaoguang_00006",
+          "x": 8,
+          "y": -51
+        },
+        {
+          "res": "baofusaoguang_00007",
+          "x": 52,
+          "y": -53
+        },
+        {
+          "res": "baofusaoguang_00008",
+          "x": 90,
+          "y": -53
+        },
+        {
+          "res": "baofusaoguang_00009",
+          "x": -140,
+          "y": -55
+        }
+      ]
+    }
+  },
+  "res": {
+    "baofusaoguang_00000": {
+      "x": 100,
+      "y": 109,
+      "w": 0,
+      "h": 0
+    },
+    "baofusaoguang_00001": {
+      "x": 250,
+      "y": 109,
+      "w": 46,
+      "h": 108
+    },
+    "baofusaoguang_00002": {
+      "x": 201,
+      "y": 0,
+      "w": 86,
+      "h": 108
+    },
+    "baofusaoguang_00003": {
+      "x": 100,
+      "y": 0,
+      "w": 100,
+      "h": 108
+    },
+    "baofusaoguang_00004": {
+      "x": 0,
+      "y": 0,
+      "w": 99,
+      "h": 110
+    },
+    "baofusaoguang_00005": {
+      "x": 0,
+      "y": 111,
+      "w": 97,
+      "h": 110
+    },
+    "baofusaoguang_00006": {
+      "x": 98,
+      "y": 111,
+      "w": 100,
+      "h": 106
+    },
+    "baofusaoguang_00007": {
+      "x": 288,
+      "y": 0,
+      "w": 88,
+      "h": 105
+    },
+    "baofusaoguang_00008": {
+      "x": 199,
+      "y": 109,
+      "w": 50,
+      "h": 105
+    },
+    "baofusaoguang_00009": {
+      "x": 100,
+      "y": 109,
+      "w": 0,
+      "h": 0
+    }
+  }
+}

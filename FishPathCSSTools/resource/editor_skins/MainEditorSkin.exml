@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainEditorSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="scroller" width="1066" height="600" scaleX="1" scaleY="1" x="0" y="0">
+		<e:Group>
+			<e:Group id="editorView" x="0" y="0" width="2300" height="1800">
+				<e:Rect fillColor="0x1d3505"  left="0" right="0" top="0" bottom="0"/>
+				<e:Group id="mainViewPanel" width="1280" height="720" scaleX="0.8" scaleY="0.78" horizontalCenter="0"
+				         verticalCenter="0">
+					<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0x000000" />
+				</e:Group>
+				<e:Group id="ImmovableGridGroup" width="1280" height="720" scaleX="0.8" scaleY="0.78" horizontalCenter="0"
+				         verticalCenter="0" touchEnabled="false" />
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+	<e:Panel id="showLinesPanel" width="214" height="600" x="1066" y="0" rotation="0">
+		<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0x001e12" />
+		<e:Scroller width="214" height="550" x="0" y="50" scaleX="1" scaleY="1" touchEnabled="true" touchChildren="true"
+		            enabled="true">
+			<e:Group x="-2" width="200" scrollEnabled="true" y="-1">
+				<e:List id="pathList" width="214" x="0" y="0" scrollEnabled="true" />
+			</e:Group>
+		</e:Scroller>
+		<e:Label text="路径列表" x="42" y="8" textColor="0x12bc1c" fontFamily="SimHei" />
+		<e:CheckBox id="totalSelectionCheck" label="" y="12" x="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="checkbox_unselect_png" source.down="checkbox_select_down_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+	</e:Panel>
+	<e:Panel id="toolBarPanel" width="1280" height="120" x="0" y="600">
+		<e:Rect width="1280" height="120" x="0" y="0" fillColor="0x601e12" />
+		<e:Button id="addPathButton" label="增加路径" x="952.1" y="10" scaleX="1" scaleY="1" width="100" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="sortPathListButton" label="排序" x="862.1" y="10" scaleX="1" scaleY="1" width="60" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="animationButton" label="动画" x="862.1" y="62" scaleX="1" scaleY="1" width="60" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="downloadButton" label="下载" x="1198" y="10" scaleX="1" scaleY="1" width="60" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="delPathPointButton" label="删除点" x="227.25" y="40" scaleX="1" scaleY="1" width="100" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:CheckBox id="dragCheckBox" label="拖动" x="1198" y="62" scaleX="1" scaleY="1" width="75.76" height="40" skinName="skins.CheckBoxSkin" anchorOffsetX="0">
+
+		</e:CheckBox>
+		<e:Button id="clearPathPointButton" label="清除" x="597.45" y="16" scaleX="1" scaleY="1" width="100" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="superpositionButton" label="叠加" x="597.45" y="69" scaleX="1" scaleY="1" width="100" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="hideButton" label="隐藏" x="718.45" y="69" scaleX="1" scaleY="1" width="100" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="cancelButton" label="撤销" x="718.45" y="17" scaleX="1" scaleY="1" width="100" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="modifyPathButton" label="修改路径" x="952.1" y="62" scaleX="1" scaleY="1" width="100" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="savePathButton" label="保存路径" x="1078.1" y="62" scaleX="1" scaleY="1" width="100" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="removePathButton" label="移除路径" x="1078.1" y="10" scaleX="1" scaleY="1" width="100" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" minHeight="50" minWidth="100">
+					<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png"
+					         source.down="button_down_png" />
+					<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFF0000" fontFamily="SimHei"
+					         verticalAlign="middle" textAlign="center" />
+					<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:CheckBox id="showGridCbx" label="显示网格" x="37.68" y="38" width="200" height="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+					<e:Group width="100%" height="100%">
+						<e:layout>
+							<e:HorizontalLayout verticalAlign="middle" />
+						</e:layout>
+						<e:Image fillMode="scale" alpha="1" width="40" height="40" alpha.disabled="0.5" alpha.down="0.7"
+						         source="checkbox_unselect_png" source.upAndSelected="checkbox_select_up_png"
+						         source.downAndSelected="checkbox_select_down_png"
+						         source.disabledAndSelected="checkbox_select_disabled_png" />
+						<e:Label id="labelDisplay" size="30" textColor="0x00FFFF" textAlign="center" verticalAlign="middle"
+						         fontFamily="Tahoma" />
+					</e:Group>
+				</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+		<e:Label text="路径ID" x="355.06" y="46" />
+		<e:TextInput id="operPathIdLabel" width="100" height="40" x="465.06" y="42" />
+	</e:Panel>
+	<e:Label id="errorMsgLabel" text="错误提示" textColor="0xf90707" fontFamily="SimHei" size="40" y="340" horizontalCenter="0"
+	         visible="false" />
+	<e:Image id="FishResourcesImage" x="-266" y="353" source="puyu_load_Icon_png" anchorOffsetX="38" anchorOffsetY="27.5" />
+</e:Skin>

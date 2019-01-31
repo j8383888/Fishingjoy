@@ -1,0 +1,129 @@
+{
+  "mc": {
+    "action": {
+      "frameRate": 10,
+      "labels": [
+        {
+          "name": "mc",
+          "frame": 1,
+          "end": 10
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "quanpingbaoza_00000",
+          "x": -211,
+          "y": -218
+        },
+        {
+          "res": "quanpingbaoza_00001",
+          "x": -256,
+          "y": -256
+        },
+        {
+          "res": "quanpingbaoza_00002",
+          "x": -256,
+          "y": -256
+        },
+        {
+          "res": "quanpingbaoza_00003",
+          "x": -234,
+          "y": -241
+        },
+        {
+          "res": "quanpingbaoza_00004",
+          "x": -211,
+          "y": -218
+        },
+        {
+          "res": "quanpingbaoza_00005",
+          "x": -210,
+          "y": -193
+        },
+        {
+          "res": "quanpingbaoza_00006",
+          "x": -210,
+          "y": -174
+        },
+        {
+          "res": "quanpingbaoza_00007",
+          "x": -208,
+          "y": -169
+        },
+        {
+          "res": "quanpingbaoza_00008",
+          "x": -201,
+          "y": -156
+        },
+        {
+          "res": "quanpingbaoza_00009",
+          "x": -171,
+          "y": -153
+        }
+      ]
+    }
+  },
+  "res": {
+    "quanpingbaoza_00000": {
+      "x": 457,
+      "y": 513,
+      "w": 410,
+      "h": 442
+    },
+    "quanpingbaoza_00001": {
+      "x": 0,
+      "y": 0,
+      "w": 512,
+      "h": 512
+    },
+    "quanpingbaoza_00002": {
+      "x": 513,
+      "y": 0,
+      "w": 500,
+      "h": 512
+    },
+    "quanpingbaoza_00003": {
+      "x": 0,
+      "y": 513,
+      "w": 456,
+      "h": 488
+    },
+    "quanpingbaoza_00004": {
+      "x": 1014,
+      "y": 0,
+      "w": 410,
+      "h": 442
+    },
+    "quanpingbaoza_00005": {
+      "x": 868,
+      "y": 513,
+      "w": 384,
+      "h": 392
+    },
+    "quanpingbaoza_00006": {
+      "x": 1425,
+      "y": 0,
+      "w": 393,
+      "h": 335
+    },
+    "quanpingbaoza_00007": {
+      "x": 1425,
+      "y": 336,
+      "w": 390,
+      "h": 333
+    },
+    "quanpingbaoza_00008": {
+      "x": 1253,
+      "y": 670,
+      "w": 380,
+      "h": 319
+    },
+    "quanpingbaoza_00009": {
+      "x": 1634,
+      "y": 670,
+      "w": 344,
+      "h": 312
+    }
+  }
+}

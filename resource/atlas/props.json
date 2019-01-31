@@ -1,0 +1,135 @@
+{
+  "file": "props.png",
+  "frames": {
+    "catchAllInOneDraft": {
+      "x": 404,
+      "y": 244,
+      "w": 204,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 204,
+      "sourceH": 60
+    },
+    "freeOutOfTheField1": {
+      "x": 0,
+      "y": 427,
+      "w": 709,
+      "h": 122,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 709,
+      "sourceH": 122
+    },
+    "freeOutOfTheField2": {
+      "x": 476,
+      "y": 802,
+      "w": 467,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 467,
+      "sourceH": 68
+    },
+    "freeOutOfTheField3": {
+      "x": 404,
+      "y": 0,
+      "w": 555,
+      "h": 243,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 555,
+      "sourceH": 243
+    },
+    "freeOutOfTheField4": {
+      "x": 476,
+      "y": 871,
+      "w": 418,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 418,
+      "sourceH": 68
+    },
+    "Medal_ middle1": {
+      "x": 0,
+      "y": 826,
+      "w": 194,
+      "h": 194,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 194,
+      "sourceH": 194
+    },
+    "Medal_ middle2": {
+      "x": 273,
+      "y": 802,
+      "w": 202,
+      "h": 202,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 202,
+      "sourceH": 202
+    },
+    "Medal_ middle3": {
+      "x": 776,
+      "y": 481,
+      "w": 202,
+      "h": 202,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 202,
+      "sourceH": 202
+    },
+    "Medal_BG1": {
+      "x": 776,
+      "y": 244,
+      "w": 236,
+      "h": 236,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 236,
+      "sourceH": 236
+    },
+    "Medal_BG2": {
+      "x": 525,
+      "y": 550,
+      "w": 250,
+      "h": 250,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 250,
+      "sourceH": 250
+    },
+    "Medal_BG3": {
+      "x": 0,
+      "y": 550,
+      "w": 272,
+      "h": 275,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 272,
+      "sourceH": 275
+    },
+    "TreasureBox-end": {
+      "x": 0,
+      "y": 0,
+      "w": 403,
+      "h": 426,
+      "offX": 156,
+      "offY": 142,
+      "sourceW": 720,
+      "sourceH": 720
+    },
+    "up": {
+      "x": 273,
+      "y": 550,
+      "w": 251,
+      "h": 251,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 251,
+      "sourceH": 251
+    }
+  }
+}

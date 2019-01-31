@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="by_MainSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="backGround0" source="bg1_jpg" width="1344" rotation="0" anchorOffsetX="672" anchorOffsetY="378" height="756" x="640" y="360"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

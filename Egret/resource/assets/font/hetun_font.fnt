@@ -1,0 +1,15 @@
+{"file":"hetun_font.png","frames":{
+"1":{"x":101,"y":0,"w":59,"h":117,"offX":0,"offY":0,"sourceW":59,"sourceH":118},
+"2":{"x":0,"y":240,"w":90,"h":118,"offX":0,"offY":0,"sourceW":90,"sourceH":118},
+"3":{"x":94,"y":120,"w":89,"h":118,"offX":0,"offY":0,"sourceW":89,"sourceH":118},
+"4":{"x":0,"y":120,"w":92,"h":118,"offX":0,"offY":0,"sourceW":92,"sourceH":118},
+"5":{"x":275,"y":0,"w":88,"h":118,"offX":0,"offY":0,"sourceW":88,"sourceH":118},
+"6":{"x":92,"y":240,"w":90,"h":118,"offX":0,"offY":0,"sourceW":90,"sourceH":118},
+"7":{"x":92,"y":360,"w":86,"h":118,"offX":0,"offY":0,"sourceW":86,"sourceH":118},
+"8":{"x":184,"y":0,"w":89,"h":118,"offX":0,"offY":0,"sourceW":89,"sourceH":118},
+"9":{"x":0,"y":360,"w":90,"h":118,"offX":0,"offY":0,"sourceW":90,"sourceH":118},
+"x":{"x":180,"y":360,"w":92,"h":97,"offX":0,"offY":13,"sourceW":92,"sourceH":118},
+".":{"x":180,"y":459,"w":42,"h":50,"offX":0,"offY":64,"sourceW":43,"sourceH":118},
+",":{"x":185,"y":120,"w":55,"h":70,"offX":1,"offY":48,"sourceW":58,"sourceH":118},
+"+":{"x":184,"y":240,"w":83,"h":95,"offX":4,"offY":15,"sourceW":92,"sourceH":118},
+"0":{"x":0,"y":0,"w":99,"h":118,"offX":0,"offY":0,"sourceW":99,"sourceH":118}}}

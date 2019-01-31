@@ -1,0 +1,15 @@
+dea
+bin-debug/
+libs/
+.DS_Store
+bin-release/
+.idea
+release/
+release_lobby
+commonRes
+manifest.json
+Egret/wingProperties.json
+Egret/resource/default.thm.json
+tools
+Game.release
+Egret_wxgame

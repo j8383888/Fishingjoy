@@ -1,0 +1,17 @@
+{"file":"coinFont_fishS.png","frames":{
+"3":{"x":39,"y":0,"w":27,"h":39,"offX":0,"offY":0,"sourceW":27,"sourceH":39},
+"4":{"x":0,"y":117,"w":29,"h":39,"offX":0,"offY":0,"sourceW":29,"sourceH":39},
+"5":{"x":34,"y":78,"w":28,"h":39,"offX":0,"offY":0,"sourceW":28,"sourceH":39},
+"6":{"x":62,"y":78,"w":28,"h":39,"offX":0,"offY":0,"sourceW":28,"sourceH":39},
+"7":{"x":56,"y":156,"w":28,"h":39,"offX":0,"offY":0,"sourceW":28,"sourceH":39},
+"8":{"x":66,"y":0,"w":27,"h":39,"offX":0,"offY":0,"sourceW":27,"sourceH":39},
+"9":{"x":90,"y":78,"w":28,"h":39,"offX":0,"offY":0,"sourceW":28,"sourceH":39},
+"+":{"x":93,"y":0,"w":29,"h":29,"offX":0,"offY":5,"sourceW":29,"sourceH":39},
+",":{"x":113,"y":29,"w":12,"h":19,"offX":1,"offY":20,"sourceW":14,"sourceH":39},
+".":{"x":113,"y":48,"w":12,"h":11,"offX":1,"offY":27,"sourceW":14,"sourceH":39},
+"M":{"x":0,"y":0,"w":39,"h":39,"offX":0,"offY":0,"sourceW":39,"sourceH":39},
+"B":{"x":0,"y":78,"w":34,"h":39,"offX":0,"offY":0,"sourceW":34,"sourceH":39},
+"K":{"x":0,"y":39,"w":36,"h":39,"offX":0,"offY":0,"sourceW":36,"sourceH":39},
+"0":{"x":0,"y":156,"w":28,"h":39,"offX":0,"offY":0,"sourceW":28,"sourceH":39},
+"1":{"x":93,"y":29,"w":20,"h":39,"offX":0,"offY":0,"sourceW":20,"sourceH":39},
+"2":{"x":28,"y":156,"w":28,"h":39,"offX":0,"offY":0,"sourceW":28,"sourceH":39}}}

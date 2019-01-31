@@ -1,0 +1,7 @@
+[
+{"id":1,"name":"自动射击","useTime":30000,"coolTime":0,"needBatteryId":10,"appearScale":0,"numMax":0},
+{"id":2,"name":"急速射击","useTime":0,"coolTime":0,"needBatteryId":10,"appearScale":0,"numMax":0},
+{"id":3,"name":"瞄准锁定","useTime":30000,"coolTime":0,"needBatteryId":10,"appearScale":0,"numMax":0},
+{"id":4,"name":"全场冰冻","useTime":9000,"coolTime":0,"needBatteryId":100,"appearScale":10000,"numMax":9},
+{"id":5,"name":"红包","useTime":0,"coolTime":0,"needBatteryId":0,"appearScale":0,"numMax":0}
+]

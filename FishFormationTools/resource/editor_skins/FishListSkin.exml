@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishListSkin" width="100" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,disabled">
+	<e:Rect fillColor="0x1e1e3a" fillColor.down="0xCAEA00" left="0" right="0" top="0" bottom="0"/>
+</e:Skin>

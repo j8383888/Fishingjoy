@@ -1,0 +1,6 @@
+[
+{"level":1,"betPointList":[10,20,30,40,50,60,70,80,90,100],"noticeTriggers":[{"id":1000000,"statement":"海神保佑！","action":""}]},
+{"level":2,"betPointList":[100,200,300,400,500,600,700,800,900,1000],"noticeTriggers":[{"id":2000000,"statement":"海神保佑！","action":""}]},
+{"level":3,"betPointList":[1000,2000,3000,4000,5000,6000,7000,8000,9000,10000],"noticeTriggers":[{"id":2000000,"statement":"海神保佑！","action":""},{"id":200,"statement":"海神保佑！","action":""},{"id":200,"statement":"海神保佑！","action":"捕获传奇大鱼"}]},
+{"level":4,"betPointList":[10000,20000,30000,40000,50000,60000,70000,80000,90000,100000],"noticeTriggers":[{"id":20000000,"statement":"海神保佑！","action":""},{"id":200,"statement":"海神保佑！","action":""},{"id":200,"statement":"海神保佑！","action":"捕获传奇大鱼"}]}
+]

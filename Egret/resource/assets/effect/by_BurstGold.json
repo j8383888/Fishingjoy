@@ -1,0 +1,184 @@
+{
+  "mc": {
+    "action": {
+      "frameRate": 10,
+      "labels": [
+        {
+          "name": "mc",
+          "frame": 1,
+          "end": 15
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "quanpingbaoza_00000",
+          "x": -145,
+          "y": -152
+        },
+        {
+          "res": "quanpingbaoza_00001",
+          "x": -154,
+          "y": -154
+        },
+        {
+          "res": "quanpingbaoza_00002",
+          "x": -180,
+          "y": -160
+        },
+        {
+          "res": "quanpingbaoza_00003",
+          "x": -187,
+          "y": -165
+        },
+        {
+          "res": "quanpingbaoza_00004",
+          "x": -194,
+          "y": -165
+        },
+        {
+          "res": "quanpingbaoza_00005",
+          "x": -196,
+          "y": -166
+        },
+        {
+          "res": "quanpingbaoza_00006",
+          "x": -197,
+          "y": -170
+        },
+        {
+          "res": "quanpingbaoza_00007",
+          "x": -200,
+          "y": -175
+        },
+        {
+          "res": "quanpingbaoza_00008",
+          "x": -181,
+          "y": -181
+        },
+        {
+          "res": "quanpingbaoza_00009",
+          "x": -185,
+          "y": -187
+        },
+        {
+          "res": "quanpingbaoza_00010",
+          "x": -188,
+          "y": -192
+        },
+        {
+          "res": "quanpingbaoza_00011",
+          "x": -167,
+          "y": -168
+        },
+        {
+          "res": "quanpingbaoza_00012",
+          "x": -166,
+          "y": -168
+        },
+        {
+          "res": "quanpingbaoza_00013",
+          "x": -160,
+          "y": -140
+        },
+        {
+          "res": "quanpingbaoza_00014",
+          "x": -157,
+          "y": -135
+        }
+      ]
+    }
+  },
+  "res": {
+    "quanpingbaoza_00000": {
+      "x": 1461,
+      "y": 647,
+      "w": 291,
+      "h": 304
+    },
+    "quanpingbaoza_00001": {
+      "x": 1461,
+      "y": 338,
+      "w": 308,
+      "h": 308
+    },
+    "quanpingbaoza_00002": {
+      "x": 1095,
+      "y": 679,
+      "w": 341,
+      "h": 319
+    },
+    "quanpingbaoza_00003": {
+      "x": 743,
+      "y": 679,
+      "w": 351,
+      "h": 332
+    },
+    "quanpingbaoza_00004": {
+      "x": 1122,
+      "y": 0,
+      "w": 367,
+      "h": 337
+    },
+    "quanpingbaoza_00005": {
+      "x": 751,
+      "y": 341,
+      "w": 369,
+      "h": 337
+    },
+    "quanpingbaoza_00006": {
+      "x": 751,
+      "y": 0,
+      "w": 370,
+      "h": 340
+    },
+    "quanpingbaoza_00007": {
+      "x": 0,
+      "y": 384,
+      "w": 378,
+      "h": 349
+    },
+    "quanpingbaoza_00008": {
+      "x": 379,
+      "y": 374,
+      "w": 363,
+      "h": 361
+    },
+    "quanpingbaoza_00009": {
+      "x": 379,
+      "y": 0,
+      "w": 371,
+      "h": 373
+    },
+    "quanpingbaoza_00010": {
+      "x": 0,
+      "y": 0,
+      "w": 378,
+      "h": 383
+    },
+    "quanpingbaoza_00011": {
+      "x": 1122,
+      "y": 338,
+      "w": 338,
+      "h": 338
+    },
+    "quanpingbaoza_00012": {
+      "x": 1490,
+      "y": 0,
+      "w": 336,
+      "h": 337
+    },
+    "quanpingbaoza_00013": {
+      "x": 0,
+      "y": 734,
+      "w": 311,
+      "h": 289
+    },
+    "quanpingbaoza_00014": {
+      "x": 312,
+      "y": 736,
+      "w": 307,
+      "h": 287
+    }
+  }
+}
